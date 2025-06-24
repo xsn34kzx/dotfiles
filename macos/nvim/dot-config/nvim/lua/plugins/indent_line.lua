@@ -7,7 +7,7 @@ return {
 			char = "┆",
 		},
 		scope = {
-            enabled = true
+            enabled = false
 		},
 	},
 }
