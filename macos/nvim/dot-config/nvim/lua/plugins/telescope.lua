@@ -21,5 +21,6 @@ return {
         { "<leader>lr", "<cmd>Telescope lsp_references<cr>", desc = "Telescope - LSP References" },
         { "<leader>ld", "<cmd>Telescope diagnostics bufnr=0<cr>", desc = "Telescope - Diagnostics (Current Buffer)" },
         { "<leader>tt", "<cmd>Telescope grapple tags<cr>", desc = "Telescope - Tags" },
+        { "<leader>?", "<cmd>Telescope keymaps<cr>", desc = "Telescope - Keymaps"},
     },
 }

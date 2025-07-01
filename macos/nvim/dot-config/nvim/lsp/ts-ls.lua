@@ -4,7 +4,7 @@ return {
         "--stdio",
     },
     filetypes = {
-        "typescript", "javascript"
+        "typescript", "typescriptreact", "javascript"
     },
     root_markers = {
         "tsconfig.json",
