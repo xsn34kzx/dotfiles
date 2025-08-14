@@ -14,6 +14,7 @@ return {
         { "<leader>ff", "<cmd>Telescope find_files<cr>", desc = "Telescope - Find Files" },
         { "<leader>lg", "<cmd>Telescope live_grep<cr>", desc = "Telescope - Live Grep" },
         { "<leader>gf", "<cmd>Telescope git_files<cr>", desc = "Telescope - Git Files" },
+        { "<leader>gmf", "<cmd>Telescope git_status<cr>", desc = "Telescope - Git Status" },
         { "<leader>gco", "<cmd>Telescope git_commits<cr>", desc = "Telescope - Git Commits" },
         { "<leader>gbr", "<cmd>Telescope git_branches<cr>", desc = "Telescope - Git Branches" },
         { "<leader>mp", "<cmd>Telescope man_pages<cr>", desc = "Telescope - Man Pages" },
