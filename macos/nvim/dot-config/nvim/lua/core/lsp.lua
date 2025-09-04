@@ -28,3 +28,16 @@ vim.diagnostic.config({
         },
     },
 })
+
+-- Must be configured on a machine-by-machine basis
+vim.lsp.config("roslyn", {
+    cmd = {
+        "dotnet",
+        vim.fn.expand("$HOME/.nuget/packages/microsoft.codeanalysis.languageserver.osx-arm64/5.0.0-2.25453.4/content/LanguageServer/osx-arm64/Microsoft.CodeAnalysis.LanguageServer.dll"),
+        "--logLevel", -- this property is required by the server
+        "Information",
+        "--extensionLogDirectory", -- this property is required by the server
+        vim.fs.joinpath(vim.uv.os_tmpdir(), "roslyn_ls/logs"),
+        "--stdio", 
+    }
+})
