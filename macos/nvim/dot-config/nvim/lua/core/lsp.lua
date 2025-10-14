@@ -5,6 +5,7 @@ vim.lsp.enable({
     "gopls",
     "sourcekit-lsp",
     "pyright",
+    "clangd",
 })
 
 vim.diagnostic.config({
